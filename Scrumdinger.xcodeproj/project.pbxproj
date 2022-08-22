@@ -27,6 +27,8 @@
 		8D2C4E0628B0E43C0018741A /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C4E0528B0E43C0018741A /* DailyScrum.swift */; };
 		8D2C4E0828B0E4FE0018741A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C4E0728B0E4FE0018741A /* CardView.swift */; };
 		8D3441CC28B37493004CE70E /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3441CB28B37493004CE70E /* MeetingFooterView.swift */; };
+		8D3441CE28B378EE004CE70E /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3441CD28B378EE004CE70E /* AVPlayer+Ding.swift */; };
+		8D3441D128B37CCB004CE70E /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D3441D028B37CCB004CE70E /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		8D2C4E0528B0E43C0018741A /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		8D2C4E0728B0E4FE0018741A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8D3441CB28B37493004CE70E /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		8D3441CD28B378EE004CE70E /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AVPlayer+Ding.swift"; path = "../../../../../../../Downloads/ManagingStateAndLifeCycle/StartingProject/Scrumdinger/Models/AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		8D3441D028B37CCB004CE70E /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				8D2C4DD628B0E01A0018741A /* ScrumdingerApp.swift */,
+				8D3441CF28B37CCB004CE70E /* Resources */,
 				8D0DC11728B327D300961DB2 /* Views */,
 				8D2C4E0228B0E35C0018741A /* Models */,
 				8D0DC11328B31C2D00961DB2 /* TrailingIconLabelStyle.swift */,
@@ -177,9 +182,19 @@
 			children = (
 				8D0DC12528B3720F00961DB2 /* ScrumTimer.swift */,
 				8D2C4E0328B0E3960018741A /* Theme.swift */,
+				8D3441CD28B378EE004CE70E /* AVPlayer+Ding.swift */,
 				8D2C4E0528B0E43C0018741A /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8D3441CF28B37CCB004CE70E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D3441D028B37CCB004CE70E /* ding.wav */,
+			);
+			name = Resources;
+			path = ../../../../../../Downloads/ManagingStateAndLifeCycle/StartingProject/Scrumdinger/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3441D128B37CCB004CE70E /* ding.wav in Resources */,
 				8D2C4DDE28B0E01C0018741A /* Preview Assets.xcassets in Resources */,
 				8D2C4DDB28B0E01C0018741A /* Assets.xcassets in Resources */,
 			);
@@ -327,6 +343,7 @@
 				8D0DC11428B31C2D00961DB2 /* TrailingIconLabelStyle.swift in Sources */,
 				8D0DC11D28B3505D00961DB2 /* ThemeView.swift in Sources */,
 				8D0DC11628B3200100961DB2 /* ScrumView.swift in Sources */,
+				8D3441CE28B378EE004CE70E /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
