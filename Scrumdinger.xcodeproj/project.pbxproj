@@ -29,6 +29,10 @@
 		8D3441CC28B37493004CE70E /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3441CB28B37493004CE70E /* MeetingFooterView.swift */; };
 		8D3441CE28B378EE004CE70E /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3441CD28B378EE004CE70E /* AVPlayer+Ding.swift */; };
 		8D3441D128B37CCB004CE70E /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8D3441D028B37CCB004CE70E /* ding.wav */; };
+		8D3441D328B38B47004CE70E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3441D228B38B47004CE70E /* History.swift */; };
+		8D3441D528B38DA3004CE70E /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3441D428B38DA3004CE70E /* ScrumStore.swift */; };
+		8D7F369628B47E14008A8DB1 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F369528B47E14008A8DB1 /* ErrorView.swift */; };
+		8D7F369828B47EB4008A8DB1 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F369728B47EB4008A8DB1 /* ErrorWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,10 @@
 		8D3441CB28B37493004CE70E /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		8D3441CD28B378EE004CE70E /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AVPlayer+Ding.swift"; path = "../../../../../../../Downloads/ManagingStateAndLifeCycle/StartingProject/Scrumdinger/Models/AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		8D3441D028B37CCB004CE70E /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		8D3441D228B38B47004CE70E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		8D3441D428B38DA3004CE70E /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		8D7F369528B47E14008A8DB1 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		8D7F369728B47EB4008A8DB1 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 				8D0DC12128B369A800961DB2 /* MeetingHeaderView.swift */,
 				8D0DC12328B370C600961DB2 /* ScrumProgressViewStyle.swift */,
 				8D3441CB28B37493004CE70E /* MeetingFooterView.swift */,
+				8D7F369528B47E14008A8DB1 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -142,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				8D2C4DD628B0E01A0018741A /* ScrumdingerApp.swift */,
+				8D3441D428B38DA3004CE70E /* ScrumStore.swift */,
 				8D3441CF28B37CCB004CE70E /* Resources */,
 				8D0DC11728B327D300961DB2 /* Views */,
 				8D2C4E0228B0E35C0018741A /* Models */,
@@ -184,6 +194,8 @@
 				8D2C4E0328B0E3960018741A /* Theme.swift */,
 				8D3441CD28B378EE004CE70E /* AVPlayer+Ding.swift */,
 				8D2C4E0528B0E43C0018741A /* DailyScrum.swift */,
+				8D3441D228B38B47004CE70E /* History.swift */,
+				8D7F369728B47EB4008A8DB1 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -328,11 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3441D328B38B47004CE70E /* History.swift in Sources */,
 				8D0DC11F28B352DA00961DB2 /* ThemePicker.swift in Sources */,
+				8D7F369628B47E14008A8DB1 /* ErrorView.swift in Sources */,
 				8D0DC12428B370C600961DB2 /* ScrumProgressViewStyle.swift in Sources */,
 				8D3441CC28B37493004CE70E /* MeetingFooterView.swift in Sources */,
+				8D3441D528B38DA3004CE70E /* ScrumStore.swift in Sources */,
 				8D0DC12628B3720F00961DB2 /* ScrumTimer.swift in Sources */,
 				8D2C4E0628B0E43C0018741A /* DailyScrum.swift in Sources */,
+				8D7F369828B47EB4008A8DB1 /* ErrorWrapper.swift in Sources */,
 				8D0DC11928B3282400961DB2 /* DetailView.swift in Sources */,
 				8D0DC12228B369A800961DB2 /* MeetingHeaderView.swift in Sources */,
 				8D0DC11B28B3333900961DB2 /* DetailEditView.swift in Sources */,
